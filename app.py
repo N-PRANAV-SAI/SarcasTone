@@ -33,11 +33,21 @@ st.set_page_config(
 @st.cache_resource
 def load_all_models():
     """Load all trained models once and cache them."""
+    import gc
+    try:
+        import torch
+        torch.set_num_threads(1)
+    except Exception:
+        pass
+
     models = {}
 
     # Text model
     text_model_path = os.path.join(MODELS_DIR, 'text_model')
-    if os.path.exists(os.path.join(text_model_path, 'model.pt')):
+    has_text_model = os.path.exists(text_model_path) and any(
+        p.startswith('model.pt') for p in os.listdir(text_model_path)
+    )
+    if has_text_model:
         try:
             from sarcastone.models.text_model import load_text_model
             model, tokenizer = load_text_model(device='cpu')
@@ -63,6 +73,7 @@ def load_all_models():
         except Exception as e:
             st.warning(f"Could not load multimodal model: {e}")
 
+    gc.collect()
     return models
 
 

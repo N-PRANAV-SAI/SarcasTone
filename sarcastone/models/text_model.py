@@ -193,6 +193,10 @@ def load_text_model(path=None, device='cpu'):
 
     tokenizer = DistilBertTokenizer.from_pretrained(path)
     model = TextSarcasmClassifier().to(device)
-    model.load_state_dict(torch.load(model_file, map_location=device, weights_only=True))
+    state_dict = torch.load(model_file, map_location=device, weights_only=True)
+    model.load_state_dict(state_dict)
+    del state_dict
+    import gc
+    gc.collect()
     model.eval()
     return model, tokenizer
