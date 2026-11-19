@@ -14,9 +14,9 @@
 ## 🌟 Quick Links & Deliverables
 
 - 🌐 **Live Web Application**: [https://sarcastone.streamlit.app/](https://sarcastone.streamlit.app/)
-- 📄 **IEEE Research Paper (Word .docx)**: [SarcasTone_IEEE_Research_Paper.docx](SarcasTone_IEEE_Research_Paper.docx)
-- 🖥️ **Presentation Slides (12 Slides)**: [presentation-slides.md](presentation-slides.md)
-- 📊 **Complete Academic Audit Report**: [academic-project-audit-report.md](academic-project-audit-report.md)
+- 📄 **IEEE Research Paper (PDF)**: [SarcasTone_IEEE_Research_Paper.pdf](SarcasTone_IEEE_Research_Paper.pdf)
+- 📝 **IEEE Research Paper (Word .docx)**: [SarcasTone_IEEE_Research_Paper.docx](SarcasTone_IEEE_Research_Paper.docx)
+- 🖥️ **Presentation Slides (10 Slides .pptx)**: [SarcasTone_10_Slides_Presentation.pptx](SarcasTone_10_Slides_Presentation.pptx)
 
 ---
 
@@ -100,9 +100,9 @@ SarcasTone/
 ├── app.py                                # Streamlit Interactive Web Application
 ├── requirements.txt                      # Cloud-optimized CPU dependencies
 ├── packages.txt                          # Debian system audio libraries (ffmpeg, libsndfile1)
-├── SarcasTone_IEEE_Research_Paper.docx   # IEEE Style Word Research Paper
-├── presentation-slides.md                # 12-Slide Presentation Deck
-├── academic-project-audit-report.md      # Comprehensive Technical Audit Report
+├── SarcasTone_IEEE_Research_Paper.pdf    # IEEE Style Research Paper (PDF)
+├── SarcasTone_IEEE_Research_Paper.docx   # IEEE Style Research Paper (Word .docx)
+├── SarcasTone_10_Slides_Presentation.pptx# Official 10-Slide Presentation (.pptx)
 ├── sarcastone/                           # Core Machine Learning Package
 │   ├── config.py                         # Hyperparameters and directory paths
 │   ├── data_utils.py                     # Dataset loaders & stratified 5-fold split
