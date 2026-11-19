@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Monolithic large model file (>100MB, reassembled from parts)
+models/text_model/model.pt
+
+# Large archives and caches
+*.zip
+data/glove_full_dict.p
+data/temp/
+data/features/
+data/videos/
+data/audios/
+data/frames/
+data/bert-output.jsonl
+data/bert-output-context.jsonl
+/output/
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Excluded
+original_mustard/

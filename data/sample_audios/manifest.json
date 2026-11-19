@@ -1,0 +1,112 @@
+[
+  {
+    "id": "sample_01",
+    "title": "1. Sarcastic: Corporate Meeting (Deadpan)",
+    "text": "Oh great, another meeting that could have been an email.",
+    "voice": "Samantha",
+    "rate": 160,
+    "label": "Sarcastic",
+    "category": "Sarcasm (Ironic/Deadpan)",
+    "wav_path": "data/sample_audios/sample_01.wav",
+    "duration": 2.77
+  },
+  {
+    "id": "sample_02",
+    "title": "2. Sarcastic: Traffic Jam (Exasperated)",
+    "text": "I just love sitting in standstill traffic for two hours.",
+    "voice": "Alex",
+    "rate": 150,
+    "label": "Sarcastic",
+    "category": "Sarcasm (Exaggerated)",
+    "wav_path": "data/sample_audios/sample_02.wav",
+    "duration": 3.45
+  },
+  {
+    "id": "sample_03",
+    "title": "3. Sarcastic: Sheldon Style (BBT Mocking)",
+    "text": "It's just a privilege to watch your mind at work.",
+    "voice": "Daniel",
+    "rate": 175,
+    "label": "Sarcastic",
+    "category": "Sarcasm (Mocking/Derisive)",
+    "wav_path": "data/sample_audios/sample_03.wav",
+    "duration": 2.7
+  },
+  {
+    "id": "sample_04",
+    "title": "4. Sarcastic: Helpfulness (Mock Gratitude)",
+    "text": "Thank you so much for your incredibly helpful and timely advice.",
+    "voice": "Victoria",
+    "rate": 165,
+    "label": "Sarcastic",
+    "category": "Sarcasm (False Politeness)",
+    "wav_path": "data/sample_audios/sample_04.wav",
+    "duration": 3.6
+  },
+  {
+    "id": "sample_05",
+    "title": "5. Sarcastic: Rainy Day (Bitter Irony)",
+    "text": "What a truly magnificent day to be stuck indoors working all weekend.",
+    "voice": "Samantha",
+    "rate": 155,
+    "label": "Sarcastic",
+    "category": "Sarcasm (Bitter Irony)",
+    "wav_path": "data/sample_audios/sample_05.wav",
+    "duration": 3.69
+  },
+  {
+    "id": "sample_06",
+    "title": "6. Sincere: Genuine Gratitude (Warm)",
+    "text": "I really appreciate all your help and dedication on this project.",
+    "voice": "Samantha",
+    "rate": 180,
+    "label": "Not Sarcastic",
+    "category": "Sincere (Positive)",
+    "wav_path": "data/sample_audios/sample_06.wav",
+    "duration": 3.5
+  },
+  {
+    "id": "sample_07",
+    "title": "7. Sincere: Sunny Weather (Genuine Delight)",
+    "text": "The weather outside is lovely and warm, perfect for a long walk.",
+    "voice": "Victoria",
+    "rate": 180,
+    "label": "Not Sarcastic",
+    "category": "Sincere (Positive)",
+    "wav_path": "data/sample_audios/sample_07.wav",
+    "duration": 3.5
+  },
+  {
+    "id": "sample_08",
+    "title": "8. Sincere: Formal Notice (Neutral Factual)",
+    "text": "The scheduled team meeting will begin at three o clock in the conference room.",
+    "voice": "Alex",
+    "rate": 185,
+    "label": "Not Sarcastic",
+    "category": "Sincere (Neutral)",
+    "wav_path": "data/sample_audios/sample_08.wav",
+    "duration": 3.55
+  },
+  {
+    "id": "sample_09",
+    "title": "9. Sincere: Congratulations (Enthusiastic)",
+    "text": "Congratulations on your new promotion, you worked very hard for it!",
+    "voice": "Samantha",
+    "rate": 190,
+    "label": "Not Sarcastic",
+    "category": "Sincere (Positive)",
+    "wav_path": "data/sample_audios/sample_09.wav",
+    "duration": 3.47
+  },
+  {
+    "id": "sample_10",
+    "title": "10. Sincere: Reminder Notice (Calm Reminder)",
+    "text": "Please remember to submit your weekly progress summary before Friday afternoon.",
+    "voice": "Daniel",
+    "rate": 180,
+    "label": "Not Sarcastic",
+    "category": "Sincere (Neutral)",
+    "wav_path": "data/sample_audios/sample_10.wav",
+    "duration": 4.34
+  }
+]
